@@ -20,6 +20,7 @@ jobs:
           java-version: 8
       - name: Building with Gradle
         run: |
+         chmod +x ./gradlew
          ./gradlew build
          ./gradlew test
          ./gradlew test --tests AppTest
