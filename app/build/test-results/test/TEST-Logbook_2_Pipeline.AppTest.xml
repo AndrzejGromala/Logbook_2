@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Logbook_2_Pipeline.AppTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-04-16T21:33:07" hostname="GENERICMACHINE" time="0.041">
+  <properties/>
+  <testcase name="isEmpty" classname="Logbook_2_Pipeline.AppTest" time="0.033"/>
+  <testcase name="isPalindrome" classname="Logbook_2_Pipeline.AppTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
