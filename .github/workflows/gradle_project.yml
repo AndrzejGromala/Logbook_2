@@ -2,11 +2,11 @@ name: Gradle Java project Github Actions build.
 # Define when the worklow should run. On a push to main, a PR to main or manually with workflow_dispatch
 
 on:
-  push:
-    branches: [ master, main ]
+  #push:
+    #branches: [ master, main ]
   pull_request:
     branches: [ master, main ]
-  workflow_dispatch:
+  #workflow_dispatch:
 
 # Define some jobs that should run
 
@@ -22,7 +22,12 @@ jobs:
         run: |
          chmod +x ./gradlew
          ./gradlew build
+         echo "Gradle build was successfull!!!"
          ./gradlew test
+         echo "Test 1 passed!"
          ./gradlew test --tests AppTest
+         echo "Tests from AppTest class passed!!!"
          ./gradlew test --tests AppTest2
+         echo "Tests in AppTest2 class passed!!!"
          ./gradlew deploy
+         echo "Deployment successfull!!!"
