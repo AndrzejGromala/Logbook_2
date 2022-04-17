@@ -69,4 +69,6 @@ tasks.register("deploy"){
     }
 }
 
-
+java {
+        withJavadocJar()
+}
