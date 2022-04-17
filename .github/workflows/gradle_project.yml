@@ -21,13 +21,9 @@ jobs:
       - name: Building with Gradle
         run: |
          chmod +x ./gradlew
-         ./gradlew build
-         echo "Gradle build was successfull!!!"
-         ./gradlew test
-         echo "Test 1 passed!"
-         ./gradlew test --tests AppTest
-         echo "Tests from AppTest class passed!!!"
-         ./gradlew test --tests AppTest2
-         echo "Tests in AppTest2 class passed!!!"
+         ./gradlew clean 
+         ./gradlew clean build
          ./gradlew deploy
          echo "Deployment successfull!!!"
+      - name: Creating a Build Scan
+        run: ./gradlew build --scan
