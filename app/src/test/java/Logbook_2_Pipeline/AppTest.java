@@ -12,7 +12,7 @@ public class AppTest {
         App classUnderTest = new App();
         // Act and Assert
         assertEquals(classUnderTest.execute(), "Your sentence is a Palindrome!!!");
-
+   // System.out.println("Test Passed!!!");
     }
 
     @Test public void isEmpty(){
@@ -20,5 +20,6 @@ public class AppTest {
         App classUnderTest1 = new App();
         // Act and Assert
         assertNotNull(classUnderTest1.execute(), "Your sentence is a Palindrome!!!");
+        //System.out.println("Test Passed!!!");
     }
 }

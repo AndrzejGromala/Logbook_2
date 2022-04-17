@@ -10,7 +10,7 @@ public class AppTest2 {
         // Act and Assert
         int max = 666;
         assertEquals(classUnderTest.execute2(), max);
-
+        //System.out.println("Test Passed!!!");
     }
 
 
