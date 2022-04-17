@@ -17,15 +17,7 @@ plugins {
 
 gradleEnterprise {
     buildScan{
-        var termsOfServiceUrl = "https://gradle.com/terms-of-service"
-        var termsOfServiceAgree = "yes"
+        termsOfServiceUrl = "https://gradle.com/terms-of-service"
+        termsOfServiceAgree = "yes"
     }
-}
-
-fun gradleEnterprise(function: () -> Unit) {
-
-}
-
-fun buildScan(function: () -> Unit) {
-
 }
