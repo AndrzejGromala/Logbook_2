@@ -26,4 +26,5 @@ jobs:
          ./gradlew deploy
          echo "Deployment successfull!!!"
       - name: Creating a Build Scan
-        run: ./gradlew build -scan
+        run: |
+         ./gradlew build --scan
