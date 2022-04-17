@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Logbook_2_Pipeline.AppTest2" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-04-16T21:33:07" hostname="GENERICMACHINE" time="0.004">
+<testsuite name="Logbook_2_Pipeline.AppTest2" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-04-17T19:58:49" hostname="GENERICMACHINE" time="0.002">
   <properties/>
-  <testcase name="maxVal" classname="Logbook_2_Pipeline.AppTest2" time="0.004"/>
+  <testcase name="maxVal" classname="Logbook_2_Pipeline.AppTest2" time="0.002"/>
   <system-out><![CDATA[The min value in the array is: 9
 The max value in the array is: 666
 ]]></system-out>

@@ -10,3 +10,22 @@
 
 rootProject.name = "Logbook_2_Pipeline"
 include("app")
+
+plugins {
+    id("com.gradle.enterprise") version("3.9")
+}
+
+gradleEnterprise {
+    buildScan{
+        var termsOfServiceUrl = "https://gradle.com/terms-of-service"
+        var termsOfServiceAgree = "yes"
+    }
+}
+
+fun gradleEnterprise(function: () -> Unit) {
+
+}
+
+fun buildScan(function: () -> Unit) {
+
+}
